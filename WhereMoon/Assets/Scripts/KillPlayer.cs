@@ -12,3 +12,4 @@ public class KillPlayer : MonoBehaviour
             collision.transform.position = spawnPoint.position;  //will transform the postition of the box2d collision area to back to the spawnPoint postition .
     }
 }
+ 
