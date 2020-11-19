@@ -9,14 +9,14 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private float speed = 5f;
 
-    public GameObject gameOverText, restartButton, blood;
+    public GameObject gameOverText, restartButton, blood;  //declaring the GameObjects
 
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        gameOverText.SetActive(false);
-        restartButton.SetActive(false); 
+        gameOverText.SetActive(false);                  //set to false on active, so wont appear on start
+        restartButton.SetActive(false);                 //set to false on active, so wont appear on start
     }
 
     // Update is called once per frame
