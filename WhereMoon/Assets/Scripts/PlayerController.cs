@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
             gameOverText.SetActive(true);
             restartButton.SetActive(true);
             Instantiate(blood, transform.position, Quaternion.identity);
-            gameObject.SetActive(false);  
+            gameObject.SetActive(false);
         }
     }
 }

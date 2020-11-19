@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 346580815}
   - component: {fileID: 346580814}
   - component: {fileID: 346580813}
+  - component: {fileID: 346580816}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Spikes
@@ -961,6 +962,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 1.589, y: 0, z: 0}
+--- !u!114 &346580816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346580812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f888889b319dc4b99fcb39f60450d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 190773948}
 --- !u!1 &436697308
 GameObject:
   m_ObjectHideFlags: 0
