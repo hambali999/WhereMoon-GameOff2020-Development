@@ -10,6 +10,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
             collision.transform.position = spawnPoint.position;  //will transform the postition of the box2d collision area to back to the spawnPoint postition .
+
     }
 }
  
